@@ -15,7 +15,7 @@
 ###    3. BMKG Station*
 ###    4. Java Station* (Optional)
 
-### There's a folder with the example and the file for it
+### *There's a folder with the example and the file for it
 
 ## Installation
 
@@ -40,7 +40,15 @@ y
 python Full_Next_Step.py
 ```
 
-### And you're done. Note : You can just create the text from the first three input and paste it all together in anaconda, it will still work
+### And you're done. Note : You can just create the text from the first three input and paste it all together in anaconda, it will still work.
+
+## for example :
+
+```bash
+python Full_Step_Preprocessing.py
+C:\Documents\EarthquakeRawData\Tōhoku_earthquake
+C:\Coding\PhaseNet\Preprocessing
+```
 
 ## Contributing
 
