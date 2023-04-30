@@ -1,16 +1,16 @@
 # Preprocessing PhaseNet
 
 ## Preprocessing PhaseNet is a Python Code to automate multiple things, such as :
-###    1. Dirrectory and files
+###    1. Directory and files
 ###    2. Correlation with BMKG stations
-###    3. Transformation from .net.0xx format to .MSEED
+###    3. Transformation from .0xx (e.g. 0.77) format to .MSEED
 ###    4. Resampling and trimming Data
 ###    5. Create filename for PhaseNet and code text file for PhaseNet
 ###    6. Histogram of correlation between BMKG and PhaseNet
 
 ## All you need is three things :
 ###    1. Raw Data (Folder E,N,Z)
-###    2. This Code
+###    2. Seisgram2K
 ###    3. PhaseNet
 
 ## Installation
