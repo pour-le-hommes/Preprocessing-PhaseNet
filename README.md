@@ -9,25 +9,38 @@
 ###    6. Histogram of correlation between BMKG and PhaseNet
 
 ## All you need is three things :
+###    0. PhaseNet
 ###    1. Raw Data (Folder E,N,Z)
-###    2. Seisgram2K
-###    3. PhaseNet
+###    2. Seisgram2K*
+###    3. BMKG Station*
+###    4. Java Station* (Optional)
+
+### There's a folder with the example and the file for it
 
 ## Installation
 
-Use the package manager [pip](https://pip.pypa.io/en/stable/) to install Preprocessing PhaseNet.
+Use the package manager [TERRA](https://terra.cyclic.app) to install Preprocessing PhaseNet.
 
 ```bash
 pip install im joking you cant
 ```
 
-## Usage
+## Inputs
 
-```python
+### The four input lines are:
 
-The code will request two file directory, and you're done.
+```bash
 
+python Full_Step_Preprocessing.py
+file\to\raw\data
+file\to\thiscode
+"After filtering file with seisgram2k and saving to Single Comp"
+y
+"Transfer picks file from PhaseNet/results to 5.Results"
+python Full_Next_Step.py
 ```
+
+### And you're done. Note : You can just create the text from the first three input and paste it all together in anaconda, it will still work
 
 ## Contributing
 
